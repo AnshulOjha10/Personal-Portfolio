@@ -1,0 +1,22 @@
+@import "tailwindcss";
+body{
+/* background-color: #0a0a0a; */
+/* color: white; */
+font-family: 'Gilroy', sans-serif;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../Gilroy-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
