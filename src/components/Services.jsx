@@ -33,8 +33,10 @@ function Services() {
         transition={{ duration: 0.5, delay: 0.7 }}
         className="text-center max-w-2xl mx-auto mt-5 mb-12 "
       >
-        I am a frontend developer from California, USA with 10 years of
-        experience in multiple companies like Microsoft, Tesla and Apple.
+        I am a frontend developer from India, passionate about building modern
+        web applications using technologies like React, Node.js, and MongoDB. I
+        have collaborated on multiple projects across startups and growing tech
+        companies.
       </motion.p>
 
       <motion.div
