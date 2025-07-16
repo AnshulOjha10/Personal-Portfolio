@@ -37,8 +37,8 @@ import right_arrow_bold from "./right-arrow-bold.png";
 import right_arrow_bold_dark from "./right-arrow-bold-dark.png";
 import work1 from "./work-1.png";
 import work2 from "./work-2.png";
-import work3 from "./work-3.png";
-import work4 from "./work-4.png";
+import work3 from "./work-3.jpg";
+import work4 from "./work-4.jpg";
 
 export const assets = {
   user_image,
@@ -86,28 +86,28 @@ export const assets = {
 
 export const workData = [
   {
-    title: "Frontend project",
-    description: "A project showcasing modern web development techniques...",
+    title: "Nebulo - Real-time Chatting App",
+    description: "A real-time chatting app that enables users to communicate using WebSocket technology, providing instant messaging capabilities.",
     bgImage: work1,
-    URL: "https://anshulojha10.github.io/Anime-site-clone/",
+    URL: "https://nebulo-six.vercel.app/",
   },
   {
-    title: "Swiggy Clone",
-    description: "the popular food delivery app Swiggy, built using...",
+    title: "CodeRelay - Code Collaboration Platform ",
+    description: "A collaborative platform for developers to share and work on code in real-time, featuring syntax highlighting and version control.",
     bgImage: work2,
+    URL: "https://coderelay-app.vercel.app/",
+  },
+  {
+    title: "Swiggy Model",
+    description: "the popular food delivery app Swiggy, built using apis and React. It features a user-friendly interface, allowing users to view menus seamlessly.",
+    bgImage: work3,
     URL: "https://anshulojha10.github.io/Swiggy-clone/",
   },
   {
-    title: "Nebulo",
-    description: "real-time chatting app that enables users to communicate using WebSocket ",
-    bgImage: work3,
-    URL: "https://anshulojha10.github.io/Editing-site/",
-  },
-  {
-    title: "UI/UX designing",
-    description: "UI/UX Design",
+    title: "Editor Base - Video Editing site",
+    description: "A dynamic and interactive video editing website built using HTML, CSS, JavaScript, and GSAP for smooth animations and transitions. It provides users with an intuitive interface to edit and enhance videos effortlessly.",
     bgImage: work4,
-    URL: "https://example.com/project4",
+    URL: "https://anshulojha10.github.io/Editing-site/",
   },
 ];
 

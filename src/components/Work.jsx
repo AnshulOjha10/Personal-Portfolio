@@ -55,8 +55,8 @@ function Work() {
             >
               <div className="bg-[#1f1f1f] w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
                 <div>
-                  <h2 className=" font-semibold">{project.title}</h2>
-                  <p className="text-gray-400 text-sm">{project.description}</p>
+                  <h2 className=" font-semibold">{`${project.title.slice(0, 35)}...`}</h2>
+                  <p className="text-gray-400 text-sm">{`${project.description.slice(0, 50)}...`}</p>
                 </div>
                 <div className="rounded-full bg-gray-500 p-1 group-hover:bg-gray-700 transition shadow-[4px_4px_0_#ebf498]">
                   <img src="\send-black.svg" className="w-5" />
